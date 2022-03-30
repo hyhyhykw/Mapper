@@ -1,0 +1,5 @@
+rootProject.name = "Mapper"
+include ':app'
+include ':anno'
+include ':compiler'
+include ':mapper'

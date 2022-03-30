@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+    <issue id="exclude">
+
+    </issue>
+
+    <issue id="module">
+        <name value="app" />
+<!--        <name value="mylibrary" />-->
+    </issue>
+
+    <issue id="layoutDir">
+        <!--        <name value="layouts/activities" />-->
+        <!--        <name value="layouts/dialogs" />-->
+        <!--        <name value="layouts/fragments" />-->
+        <!--        <name value="layouts/items" />-->
+        <!--        <name value="layouts/layers" />-->
+    </issue>
+
+    <issue id="creatorClass" value="TestViewCreator" />
+
+    <issue id="mapper">
+        <!-- 21 -->
+        <mapper appcompat="androidx.appcompat.widget.AppCompatTextView" key="TextView" value="t" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatImageView" key="ImageView"
+            value="i" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatButton" key="Button" value="b" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatCheckBox" key="CheckBox" value="c" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatCheckedTextView" key="CheckedTextView"
+            value="ct" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatEditText" key="EditText" value="e" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatImageButton" key="ImageButton"
+            value="ib" />
+<!--        <mapper appcompat="androidx.legacy.widget.Space" key="Space" value="s" />-->
+        <mapper appcompat="androidx.appcompat.widget.AppCompatSpinner" key="Spinner" value="sp" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatRadioButton" key="RadioButton"
+            value="rb" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatAutoCompleteTextView"
+            key="AutoCompleteTextView" value="act" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView"
+            key="MultiAutoCompleteTextView" value="mat" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatRatingBar" key="RatingBar"
+            value="r" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatSeekBar" key="SeekBar" value="sb" />
+        <mapper appcompat="androidx.appcompat.widget.AppCompatToggleButton" key="ToggleButton"
+            value="tb" />
+        <mapper key="androidx.appcompat.widget.Toolbar" value="too" />
+        <mapper key="VideoView" value="vv" />
+        <mapper key="LinearLayout" value="ll" />
+        <mapper key="FrameLayout" value="fl" />
+        <mapper key="RelativeLayout" value="rl" />
+        <mapper key="View" value="v" />
+        <mapper key="androidx.constraintlayout.widget.ConstraintLayout" value="cos" />
+
+
+    </issue>
+</config>
